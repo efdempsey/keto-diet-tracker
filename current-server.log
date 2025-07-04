@@ -1,0 +1,4 @@
+Starting server...
+Fri, 04 Jul 2025 14:13:39 GMT express-session deprecated req.secret; provide secret option at server/replitAuth.ts:2:2179
+Routes registered successfully
+🚀 Keto Diet Tracker server running on port 3000

@@ -1,0 +1,23 @@
+🔌 Detected port: 3000 (from default)
+🚀 Keto Diet Tracker - Universal Deployment Server
+================================================
+📡 Environment: development
+🔌 Port: 3000
+🌐 Deployment Target: auto-detect
+📂 Working Directory: /home/runner/workspace
+⚡ Process ID: 462
+🔍 Deployment Detection:
+   Cloud Run: No
+   Replit: Yes
+🔧 Universal deployment server initialized and ready
+🎉 Keto Diet Tracker deployed successfully!
+🌐 Server running on http://0.0.0.0:3000
+📡 Platform: Replit
+🔗 Health checks available at:
+   - /health (detailed)
+   - /healthz (Cloud Run compatible)
+   - /ping (basic connectivity)
+   - /status (server info)
+✅ Ready to handle requests on all platforms
+📥 2025-07-04T17:09:12.960Z - GET /health - IP: 127.0.0.1
+✅ Health check requested

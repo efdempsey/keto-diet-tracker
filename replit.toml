@@ -1,0 +1,20 @@
+[run]
+command = "node replit-simple-deploy.js"
+
+[env]
+NODE_ENV = "production"
+
+[deployment]
+run = ["node", "replit-simple-deploy.js"]
+build = ["echo", "No build step needed"]
+
+[nix]
+channel = "stable-24_05"
+
+[[ports]]
+localPort = 3000
+externalPort = 80
+
+[[ports]]
+localPort = 5173
+externalPort = 5173

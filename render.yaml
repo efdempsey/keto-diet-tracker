@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: keto-diet-tracker
+    env: node
+    startCommand: node simple-server.js
+    buildCommand: echo "No build needed"
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+    scaling:
+      minInstances: 1
+      maxInstances: 3
